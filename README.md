@@ -1,0 +1,1 @@
+# MediAnalyze-A-Cloud-Based-Medical-Diagnosis-System
