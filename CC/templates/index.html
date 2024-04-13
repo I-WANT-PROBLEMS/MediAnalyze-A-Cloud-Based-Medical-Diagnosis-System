@@ -1,0 +1,10 @@
+{% extends 'welcome.html' %}
+{% block content %}
+    <div class="text-center">
+        <h1 class="display-4">Welcome to Medical Image Analysis</h1>
+        <p class="lead">Explore our advanced medical image analysis tools.</p>
+        {% if 'access_token' not in session %}
+            <a href="{{ url_for('login') }}" class="btn btn-lg btn-success">Get Started</a>
+        {% endif %}
+    </div>
+{% endblock %}
